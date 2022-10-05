@@ -1,0 +1,67 @@
+body {
+    background-color: bisque;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 14px rgb(red, green, blue);
+}
+
+.info p {
+    color: blueviolet;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+   /* text-transform:*/
+   letter-spacing: 10 px;
+}
+
+.cont {
+    width: 75%;
+    margin: auto;
+}
+
+
+/*.contact {
+    background: darkseagreen;
+    padding: 15px;
+    border: 2 px solid black;
+    margin: 30px;
+    text-decoration: none;}*/
+
+    a {
+        color: blueviolet;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: red;
+    }
+
+    /*a:visited {
+        color: grey;
+    }*/
+
+.card {
+    padding: 15px 20px;
+    background-color: green;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+   .list {
+    padding: 0 20px;
+   }
